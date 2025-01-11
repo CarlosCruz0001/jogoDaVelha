@@ -1,0 +1,52 @@
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #f0f0f0;
+  border: 2px solid #333;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.square:hover {
+  background-color: #ddd;
+}
+
+.button-container {
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.countdown {
+  font-size: 1.5em;
+  color: red;
+  margin: 20px 0;
+}
